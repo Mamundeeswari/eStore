@@ -1,0 +1,45 @@
+.side-nav{
+    padding:0.2em;
+    box-shadow: 1px 0px 8px 0px lightgray;
+    height: 50em;
+    border-radius:1em;
+    margin-left:-10px;
+}
+.section-title{
+    padding:1em;
+}
+.section-title h3{
+    text-align: center;
+}
+button{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding:5px;
+}
+.accordion-icon {
+    margin-right: 10px; /* Space between text and icon */
+    transition: transform 0.3s ease; /* Transition for turning the icon */
+}
+
+.accordion-button:not(.collapsed) .accordion-icon {
+    transform: rotate(180deg);
+}
+
+
+.accordion-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.2em;
+    align-items: center;
+}
+.sub-items{
+    list-style-type: none;
+
+}
+.sub-items a{
+    text-decoration: none;
+    color:black;
+}

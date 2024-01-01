@@ -1,0 +1,73 @@
+.header{
+    max-width: 100%;
+    box-shadow: 5px 5px 5px 2px;
+  }
+  .row{
+    display:flex;
+  }
+  .brand{
+    color:white;
+    margin-left:2%;
+    padding:0.8em;
+    width: 23%;
+  }
+  .inp-container{
+    display:flex;
+    width:90%;
+    height:2.5em;
+  }
+  .inp-container button{
+    width:10%;
+    height: 2.5em;
+    border:none;
+    background-color: #dadada;
+  }
+  .dropdown{
+    width: 15%;
+  }
+  .select-btn{
+    height:2.5em;
+    border: none;
+    background-color: #dadada;
+    font-weight: 600;
+  }
+  .login-container{
+    display:flex;
+    width:15%;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left:1.7em 0.2em 0 0;
+    color:white;
+    text-align:right;
+  }
+  .login-container a{
+    color:white;
+    text-decoration: none; 
+  }
+  .login-container h5,i{
+    display: inline-block;
+  }
+  .user-icon{
+    margin-right:0.4em;
+    padding-bottom:5px;
+  }
+  .cart-container{
+    display:flex;
+    width:10%;
+    align-items: center;
+    justify-content:center;
+    color:white;
+  }
+  .cart-container a{
+    color:white;
+    text-decoration: none; 
+    padding:0.1em;
+    margin:0.2em;
+  }
+  .cart-icon{
+    margin:0.2em;
+  }
+  .heart-icon{
+    margin:0.2em;
+  }
+  

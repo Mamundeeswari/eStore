@@ -1,0 +1,27 @@
+.header{
+    max-width: 100%;
+    box-shadow: 5px 5px 5px 2px;
+    background-color: #1e1e1e;
+  }
+  .list{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding:2px;
+    list-style-type: none;
+    width:100%;
+  }
+  .list a{
+    text-decoration: none;
+    font-size:medium;
+    color:white;
+    padding: 0.5em;
+    margin: 1em;
+    height:1.8em;
+    border: 1px solid transparent; 
+    transition: border color  1s;
+  }
+  .list a:hover{
+    border-bottom: 1px solid white;   
+    color: gray;
+  }
